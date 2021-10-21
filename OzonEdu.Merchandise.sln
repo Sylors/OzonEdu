@@ -6,14 +6,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{9C19EF
 ProjectSection(SolutionItems) = preProject
 	README.md = README.md
 	.editorconfig = .editorconfig
-	Dockerfile = Dockerfile
 EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{574B313B-CF06-498F-A18F-9C3DDACB1AFA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{F5C4AEB0-A311-4F73-B14A-386B48C0D659}"
+ProjectSection(SolutionItems) = preProject
+	docker-compose.yml = docker-compose.yml
+EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OzonEdu.Merchandise", "src\OzonEdu.Merchandise\OzonEdu.Merchandise.csproj", "{BEB2FE4A-DE16-409B-9316-A48056469368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F823F655-B799-4999-98DC-B7638AE9BAA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
