@@ -7,6 +7,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using OzonEdu.Merchandise.GrpsServices;
+using OzonEdu.Merchandise.Infrastructure.Interceptors;
+using OzonEdu.Merchandise.Infrastructure.Middlewares;
+using OzonEdu.Merchandise.Services;
+using OzonEdu.Merchandise.Services.Interfaces;
 
 namespace OzonEdu.Merchandise
 {
@@ -16,6 +22,8 @@ namespace OzonEdu.Merchandise
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IMerchService, MerchService>();
+            services.AddGrpc(options => options.Interceptors.Add<LoggingInterceptor>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -27,9 +35,10 @@ namespace OzonEdu.Merchandise
             }
 
             app.UseRouting();
-
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapGrpcService<MerchGrpsService>();
+                endpoints.MapControllers();
                 endpoints.MapGet("/", async context => { await context.Response.WriteAsync("Hello World!"); });
             });
         }

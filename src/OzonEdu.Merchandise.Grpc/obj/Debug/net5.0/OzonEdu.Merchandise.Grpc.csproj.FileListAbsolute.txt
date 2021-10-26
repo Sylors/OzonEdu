@@ -1,0 +1,12 @@
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\bin\Debug\net5.0\OzonEdu.Merchandise.Grpc.deps.json
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\bin\Debug\net5.0\OzonEdu.Merchandise.Grpc.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\bin\Debug\net5.0\ref\OzonEdu.Merchandise.Grpc.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\bin\Debug\net5.0\OzonEdu.Merchandise.Grpc.pdb
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.csproj.AssemblyReference.cache
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.AssemblyInfoInputs.cache
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.AssemblyInfo.cs
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.csproj.CoreCompileInputs.cache
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\ref\OzonEdu.Merchandise.Grpc.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.Grpc\obj\Debug\net5.0\OzonEdu.Merchandise.Grpc.pdb

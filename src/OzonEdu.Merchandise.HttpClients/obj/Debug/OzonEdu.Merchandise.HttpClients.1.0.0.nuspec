@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OzonEdu.Merchandise.HttpClients</id>
+    <version>1.0.0</version>
+    <authors>OzonEdu.Merchandise.HttpClients</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="OzonEdu.Merchandise.HttpModels" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net5.0/bin/Debug/net5.0/OzonEdu.Merchandise.HttpClients.deps.json" buildAction="Content" />
+      <files include="any/net5.0/bin/Debug/net5.0/OzonEdu.Merchandise.HttpClients.dll" buildAction="Content" />
+      <files include="any/net5.0/bin/Debug/net5.0/OzonEdu.Merchandise.HttpClients.pdb" buildAction="Content" />
+      <files include="any/net5.0/bin/Debug/net5.0/ref/OzonEdu.Merchandise.HttpClients.dll" buildAction="Content" />
+      <files include="any/net5.0/obj/OzonEdu.Merchandise.HttpClients.csproj.nuget.dgspec.json" buildAction="Content" />
+      <files include="any/net5.0/obj/OzonEdu.Merchandise.HttpClients.csproj.nuget.g.props" buildAction="Content" />
+      <files include="any/net5.0/obj/OzonEdu.Merchandise.HttpClients.csproj.nuget.g.targets" buildAction="Content" />
+      <files include="any/net5.0/obj/project.assets.json" buildAction="Content" />
+      <files include="any/net5.0/obj/project.nuget.cache" buildAction="Content" />
+      <files include="any/net5.0/obj/project.packagespec.json" buildAction="Content" />
+      <files include="any/net5.0/obj/rider.project.restore.info" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll" target="lib\net5.0\OzonEdu.Merchandise.HttpClients.dll" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.deps.json" target="content\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.deps.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.deps.json" target="contentFiles\any\net5.0\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.deps.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll" target="content\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll" target="contentFiles\any\net5.0\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb" target="content\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb" target="contentFiles\any\net5.0\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll" target="content\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll" target="contentFiles\any\net5.0\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.dgspec.json" target="content\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.dgspec.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.dgspec.json" target="contentFiles\any\net5.0\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.dgspec.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.props" target="content\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.props" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.props" target="contentFiles\any\net5.0\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.props" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.targets" target="content\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.targets" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.targets" target="contentFiles\any\net5.0\obj\OzonEdu.Merchandise.HttpClients.csproj.nuget.g.targets" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\project.assets.json" target="content\obj\project.assets.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\project.assets.json" target="contentFiles\any\net5.0\obj\project.assets.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\project.nuget.cache" target="content\obj\project.nuget.cache" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\project.nuget.cache" target="contentFiles\any\net5.0\obj\project.nuget.cache" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\project.packagespec.json" target="content\obj\project.packagespec.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\project.packagespec.json" target="contentFiles\any\net5.0\obj\project.packagespec.json" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\rider.project.restore.info" target="content\obj\rider.project.restore.info" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\rider.project.restore.info" target="contentFiles\any\net5.0\obj\rider.project.restore.info" />
+  </files>
+</package>

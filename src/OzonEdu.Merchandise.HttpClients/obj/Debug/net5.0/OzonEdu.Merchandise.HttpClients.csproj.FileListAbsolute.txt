@@ -1,0 +1,14 @@
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.deps.json
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.csproj.AssemblyReference.cache
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.AssemblyInfoInputs.cache
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.AssemblyInfo.cs
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.csproj.CoreCompileInputs.cache
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.pdb
