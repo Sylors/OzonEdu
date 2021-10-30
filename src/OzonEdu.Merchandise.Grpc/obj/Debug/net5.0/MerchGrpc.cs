@@ -50,9 +50,9 @@ namespace OzonEdu.Merchandise.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Google.Protobuf.WellKnownTypes.Empty> __Marshaller_google_protobuf_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Google.Protobuf.WellKnownTypes.Empty.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest> __Marshaller_Merch_GetInformationAboutIssuanceMerchRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest.Parser));
+    static readonly grpc::Marshaller<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest> __Marshaller_Merch_GetInfoAboutIssuanceMerchRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse> __Marshaller_Merch_GetInformationAboutIssuanceMerchReponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse.Parser));
+    static readonly grpc::Marshaller<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse> __Marshaller_Merch_GetInfoAboutIssuanceMerchResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::OzonEdu.Merchandise.Grpc.RequestMerchRequest, global::Google.Protobuf.WellKnownTypes.Empty> __Method_RequestMerch = new grpc::Method<global::OzonEdu.Merchandise.Grpc.RequestMerchRequest, global::Google.Protobuf.WellKnownTypes.Empty>(
@@ -63,12 +63,12 @@ namespace OzonEdu.Merchandise.Grpc {
         __Marshaller_google_protobuf_Empty);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest, global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse> __Method_GetInformationAboutIssuanceMerch = new grpc::Method<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest, global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse>(
+    static readonly grpc::Method<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest, global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse> __Method_GetInfoAboutIssuanceMerch = new grpc::Method<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest, global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
-        "GetInformationAboutIssuanceMerch",
-        __Marshaller_Merch_GetInformationAboutIssuanceMerchRequest,
-        __Marshaller_Merch_GetInformationAboutIssuanceMerchReponse);
+        "GetInfoAboutIssuanceMerch",
+        __Marshaller_Merch_GetInfoAboutIssuanceMerchRequest,
+        __Marshaller_Merch_GetInfoAboutIssuanceMerchResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -87,7 +87,7 @@ namespace OzonEdu.Merchandise.Grpc {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse> GetInformationAboutIssuanceMerch(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse> GetInfoAboutIssuanceMerch(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -142,24 +142,24 @@ namespace OzonEdu.Merchandise.Grpc {
         return CallInvoker.AsyncUnaryCall(__Method_RequestMerch, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse GetInformationAboutIssuanceMerch(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse GetInfoAboutIssuanceMerch(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetInformationAboutIssuanceMerch(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetInfoAboutIssuanceMerch(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse GetInformationAboutIssuanceMerch(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest request, grpc::CallOptions options)
+      public virtual global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse GetInfoAboutIssuanceMerch(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.BlockingUnaryCall(__Method_GetInformationAboutIssuanceMerch, null, options, request);
+        return CallInvoker.BlockingUnaryCall(__Method_GetInfoAboutIssuanceMerch, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse> GetInformationAboutIssuanceMerchAsync(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse> GetInfoAboutIssuanceMerchAsync(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
-        return GetInformationAboutIssuanceMerchAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+        return GetInfoAboutIssuanceMerchAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse> GetInformationAboutIssuanceMerchAsync(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse> GetInfoAboutIssuanceMerchAsync(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest request, grpc::CallOptions options)
       {
-        return CallInvoker.AsyncUnaryCall(__Method_GetInformationAboutIssuanceMerch, null, options, request);
+        return CallInvoker.AsyncUnaryCall(__Method_GetInfoAboutIssuanceMerch, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
@@ -176,7 +176,7 @@ namespace OzonEdu.Merchandise.Grpc {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_RequestMerch, serviceImpl.RequestMerch)
-          .AddMethod(__Method_GetInformationAboutIssuanceMerch, serviceImpl.GetInformationAboutIssuanceMerch).Build();
+          .AddMethod(__Method_GetInfoAboutIssuanceMerch, serviceImpl.GetInfoAboutIssuanceMerch).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -187,7 +187,7 @@ namespace OzonEdu.Merchandise.Grpc {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, MerchGrpcBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_RequestMerch, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::OzonEdu.Merchandise.Grpc.RequestMerchRequest, global::Google.Protobuf.WellKnownTypes.Empty>(serviceImpl.RequestMerch));
-      serviceBinder.AddMethod(__Method_GetInformationAboutIssuanceMerch, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest, global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse>(serviceImpl.GetInformationAboutIssuanceMerch));
+      serviceBinder.AddMethod(__Method_GetInfoAboutIssuanceMerch, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest, global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse>(serviceImpl.GetInfoAboutIssuanceMerch));
     }
 
   }

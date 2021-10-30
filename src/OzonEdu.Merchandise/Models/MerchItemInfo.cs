@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 
-namespace OzonEdu.Merchandise.HttpModels
+namespace OzonEdu.Merchandise.Models
 {
-    public class MerchItemResponse
+    public class MerchItemInfo
     {
         public long ItemId { get; set; }
         

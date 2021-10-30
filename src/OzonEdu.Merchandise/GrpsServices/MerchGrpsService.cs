@@ -23,16 +23,16 @@ namespace OzonEdu.Merchandise.GrpsServices
             return null;
         }
 
-        public override async Task<GetInformationAboutIssuanceMerchReponse> GetInformationAboutIssuanceMerch(
-            GetInformationAboutIssuanceMerchRequest request, ServerCallContext context)
+        public override  async Task<GetInfoAboutIssuanceMerchResponse> GetInfoAboutIssuanceMerch(
+            GetInfoAboutIssuanceMerchRequest request, ServerCallContext context)
         {
             var merchItems =
-                await _merchService.GetInformationAboutIssuanceMerch(request.EmployeeId, context.CancellationToken);
-            return new GetInformationAboutIssuanceMerchReponse
+                await _merchService.GetInfoAboutIssuanceMerch(request.EmployeeId, context.CancellationToken);
+            return new GetInfoAboutIssuanceMerchResponse
             {
-                Merchs =
+                Units =
                 {
-                    merchItems.Select(x => new GetInformationAboutIssuanceMerchReponseUnit()
+                    merchItems.Select(x => new GetInfoAboutIssuanceMerchResponseUnit()
                     {
                         ItemId = x.ItemId,
                         ItemName = x.ItemName,

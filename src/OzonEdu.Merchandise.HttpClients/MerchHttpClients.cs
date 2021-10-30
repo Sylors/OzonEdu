@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using OzonEdu.Merchandise.HttpModels;
+using OzonEdu.Merchandise.HttpModels.Merch.V1.Requests;
+using OzonEdu.Merchandise.HttpModels.Merch.V1.Responses;
 
 namespace OzonEdu.Merchandise.HttpClients
 {
     public interface IMerchHttpClients
     {
-        Task RequestMerch(CancellationToken token);
-        Task<List<MerchItemResponse>> GetInformationAboutIssuanceMerch(CancellationToken token);
+        Task RequestMerch(MerchRequestV1 model, CancellationToken token);
+        Task<MerchItemResponseV1> GetInfoAboutIssuanceMerch(long employeeId, CancellationToken token);
     }
 
     public class MerchHttpClients : IMerchHttpClients
@@ -24,18 +26,21 @@ namespace OzonEdu.Merchandise.HttpClients
             _httpClient = httpClient;
         }
 
-        public async Task RequestMerch(CancellationToken token)
+        public async Task RequestMerch(MerchRequestV1 model, CancellationToken token)
         {
-            using var response = await _httpClient.PostAsync("v1/api/merch/RequestMerch", new StringContent(""), token);
-            // using var response = await _httpClient.GetAsync("v1/api/merch/RequestMerch", token);
-           // var body = await response.Content.ReadAsStringAsync(token);
-          //  return JsonSerializer.Deserialize<List<string>>(body);
+            string json =  JsonSerializer.Serialize(model);
+            StringContent httpContent = new StringContent(json, System.Text.Encoding.UTF8, "application/json");
+            using var response = await _httpClient.PostAsync("v1/api/merch/RequestMerch", httpContent, token);
+            //var body = await response.Content.ReadAsStringAsync(token);
+            //  return JsonSerializer.Deserialize<List<string>>(body);
         }
 
-        public async Task<List<MerchItemResponse>> GetInformationAboutIssuanceMerch(CancellationToken token) {
-            using var response = await _httpClient.GetAsync("v1/api/merch/GetInformationAboutIssuanceMerch", token);
+        public async Task<MerchItemResponseV1> GetInfoAboutIssuanceMerch(long employeeId, CancellationToken token)
+        {
+            using var response = await _httpClient.GetAsync($"v1/api/merch/get-info-about-issuance-merch?employeeId={employeeId}", token);
             var body = await response.Content.ReadAsStringAsync(token);
-            return JsonSerializer.Deserialize<List<MerchItemResponse>>(body);
+            return JsonSerializer.Deserialize<MerchItemResponseV1>(body);
         }
     }
+    
 }

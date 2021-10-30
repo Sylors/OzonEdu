@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using OzonEdu.Merchandise.HttpModels;
+using OzonEdu.Merchandise.Models;
 using OzonEdu.Merchandise.Services.Interfaces;
 
 namespace OzonEdu.Merchandise.Services
@@ -15,7 +16,7 @@ namespace OzonEdu.Merchandise.Services
             throw new NotImplementedException();
         }
 
-        public Task<List<MerchItemResponse>> GetInformationAboutIssuanceMerch(long employeeId, CancellationToken _)
+        public Task<List<MerchItemInfo>> GetInfoAboutIssuanceMerch(long employeeId, CancellationToken _)
         {
             throw new NotImplementedException();
         }

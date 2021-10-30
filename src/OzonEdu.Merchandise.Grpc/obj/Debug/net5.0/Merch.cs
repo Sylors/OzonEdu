@@ -27,27 +27,26 @@ namespace OzonEdu.Merchandise.Grpc {
             "CgttZXJjaC5wcm90bxIFTWVyY2gaG2dvb2dsZS9wcm90b2J1Zi9lbXB0eS5w",
             "cm90bxoeZ29vZ2xlL3Byb3RvYnVmL3dyYXBwZXJzLnByb3RvGh9nb29nbGUv",
             "cHJvdG9idWYvdGltZXN0YW1wLnByb3RvIioKE1JlcXVlc3RNZXJjaFJlcXVl",
-            "c3QSEwoLZW1wbG95ZWVfaWQYASABKAMiPgonR2V0SW5mb3JtYXRpb25BYm91",
-            "dElzc3VhbmNlTWVyY2hSZXF1ZXN0EhMKC2VtcGxveWVlX2lkGAEgASgDIm0K",
-            "J0dldEluZm9ybWF0aW9uQWJvdXRJc3N1YW5jZU1lcmNoUmVwb25zZRJCCgZt",
-            "ZXJjaHMYASADKAsyMi5NZXJjaC5HZXRJbmZvcm1hdGlvbkFib3V0SXNzdWFu",
-            "Y2VNZXJjaFJlcG9uc2VVbml0IqIBCitHZXRJbmZvcm1hdGlvbkFib3V0SXNz",
-            "dWFuY2VNZXJjaFJlcG9uc2VVbml0Eg8KB2l0ZW1faWQYASABKAMSLwoJaXRl",
-            "bV9uYW1lGAIgASgLMhwuZ29vZ2xlLnByb3RvYnVmLlN0cmluZ1ZhbHVlEjEK",
-            "DWRhdGVfb2ZfaXNzdWUYAyABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
-            "YW1wMtQBCglNZXJjaEdycGMSQgoMUmVxdWVzdE1lcmNoEhouTWVyY2guUmVx",
-            "dWVzdE1lcmNoUmVxdWVzdBoWLmdvb2dsZS5wcm90b2J1Zi5FbXB0eRKCAQog",
-            "R2V0SW5mb3JtYXRpb25BYm91dElzc3VhbmNlTWVyY2gSLi5NZXJjaC5HZXRJ",
-            "bmZvcm1hdGlvbkFib3V0SXNzdWFuY2VNZXJjaFJlcXVlc3QaLi5NZXJjaC5H",
-            "ZXRJbmZvcm1hdGlvbkFib3V0SXNzdWFuY2VNZXJjaFJlcG9uc2VCG6oCGE96",
-            "b25FZHUuTWVyY2hhbmRpc2UuR3JwY2IGcHJvdG8z"));
+            "c3QSEwoLZW1wbG95ZWVfaWQYASABKAMiNwogR2V0SW5mb0Fib3V0SXNzdWFu",
+            "Y2VNZXJjaFJlcXVlc3QSEwoLZW1wbG95ZWVfaWQYASABKAMiYAohR2V0SW5m",
+            "b0Fib3V0SXNzdWFuY2VNZXJjaFJlc3BvbnNlEjsKBXVuaXRzGAEgAygLMiwu",
+            "TWVyY2guR2V0SW5mb0Fib3V0SXNzdWFuY2VNZXJjaFJlc3BvbnNlVW5pdCKc",
+            "AQolR2V0SW5mb0Fib3V0SXNzdWFuY2VNZXJjaFJlc3BvbnNlVW5pdBIPCgdp",
+            "dGVtX2lkGAEgASgDEi8KCWl0ZW1fbmFtZRgCIAEoCzIcLmdvb2dsZS5wcm90",
+            "b2J1Zi5TdHJpbmdWYWx1ZRIxCg1kYXRlX29mX2lzc3VlGAMgASgLMhouZ29v",
+            "Z2xlLnByb3RvYnVmLlRpbWVzdGFtcDK/AQoJTWVyY2hHcnBjEkIKDFJlcXVl",
+            "c3RNZXJjaBIaLk1lcmNoLlJlcXVlc3RNZXJjaFJlcXVlc3QaFi5nb29nbGUu",
+            "cHJvdG9idWYuRW1wdHkSbgoZR2V0SW5mb0Fib3V0SXNzdWFuY2VNZXJjaBIn",
+            "Lk1lcmNoLkdldEluZm9BYm91dElzc3VhbmNlTWVyY2hSZXF1ZXN0GiguTWVy",
+            "Y2guR2V0SW5mb0Fib3V0SXNzdWFuY2VNZXJjaFJlc3BvbnNlQhuqAhhPem9u",
+            "RWR1Lk1lcmNoYW5kaXNlLkdycGNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.RequestMerchRequest), global::OzonEdu.Merchandise.Grpc.RequestMerchRequest.Parser, new[]{ "EmployeeId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest), global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchRequest.Parser, new[]{ "EmployeeId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse), global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponse.Parser, new[]{ "Merchs" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit), global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit.Parser, new[]{ "ItemId", "ItemName", "DateOfIssue" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest), global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchRequest.Parser, new[]{ "EmployeeId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse), global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponse.Parser, new[]{ "Units" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit), global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit.Parser, new[]{ "ItemId", "ItemName", "DateOfIssue" }, null, null, null, null)
           }));
     }
     #endregion
@@ -243,16 +242,16 @@ namespace OzonEdu.Merchandise.Grpc {
 
   }
 
-  public sealed partial class GetInformationAboutIssuanceMerchRequest : pb::IMessage<GetInformationAboutIssuanceMerchRequest>
+  public sealed partial class GetInfoAboutIssuanceMerchRequest : pb::IMessage<GetInfoAboutIssuanceMerchRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetInformationAboutIssuanceMerchRequest> _parser = new pb::MessageParser<GetInformationAboutIssuanceMerchRequest>(() => new GetInformationAboutIssuanceMerchRequest());
+    private static readonly pb::MessageParser<GetInfoAboutIssuanceMerchRequest> _parser = new pb::MessageParser<GetInfoAboutIssuanceMerchRequest>(() => new GetInfoAboutIssuanceMerchRequest());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetInformationAboutIssuanceMerchRequest> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetInfoAboutIssuanceMerchRequest> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -268,7 +267,7 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchRequest() {
+    public GetInfoAboutIssuanceMerchRequest() {
       OnConstruction();
     }
 
@@ -276,15 +275,15 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchRequest(GetInformationAboutIssuanceMerchRequest other) : this() {
+    public GetInfoAboutIssuanceMerchRequest(GetInfoAboutIssuanceMerchRequest other) : this() {
       employeeId_ = other.employeeId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchRequest Clone() {
-      return new GetInformationAboutIssuanceMerchRequest(this);
+    public GetInfoAboutIssuanceMerchRequest Clone() {
+      return new GetInfoAboutIssuanceMerchRequest(this);
     }
 
     /// <summary>Field number for the "employee_id" field.</summary>
@@ -302,12 +301,12 @@ namespace OzonEdu.Merchandise.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetInformationAboutIssuanceMerchRequest);
+      return Equals(other as GetInfoAboutIssuanceMerchRequest);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetInformationAboutIssuanceMerchRequest other) {
+    public bool Equals(GetInfoAboutIssuanceMerchRequest other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -380,7 +379,7 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetInformationAboutIssuanceMerchRequest other) {
+    public void MergeFrom(GetInfoAboutIssuanceMerchRequest other) {
       if (other == null) {
         return;
       }
@@ -432,16 +431,16 @@ namespace OzonEdu.Merchandise.Grpc {
 
   }
 
-  public sealed partial class GetInformationAboutIssuanceMerchReponse : pb::IMessage<GetInformationAboutIssuanceMerchReponse>
+  public sealed partial class GetInfoAboutIssuanceMerchResponse : pb::IMessage<GetInfoAboutIssuanceMerchResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetInformationAboutIssuanceMerchReponse> _parser = new pb::MessageParser<GetInformationAboutIssuanceMerchReponse>(() => new GetInformationAboutIssuanceMerchReponse());
+    private static readonly pb::MessageParser<GetInfoAboutIssuanceMerchResponse> _parser = new pb::MessageParser<GetInfoAboutIssuanceMerchResponse>(() => new GetInfoAboutIssuanceMerchResponse());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetInformationAboutIssuanceMerchReponse> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetInfoAboutIssuanceMerchResponse> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -457,7 +456,7 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchReponse() {
+    public GetInfoAboutIssuanceMerchResponse() {
       OnConstruction();
     }
 
@@ -465,44 +464,44 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchReponse(GetInformationAboutIssuanceMerchReponse other) : this() {
-      merchs_ = other.merchs_.Clone();
+    public GetInfoAboutIssuanceMerchResponse(GetInfoAboutIssuanceMerchResponse other) : this() {
+      units_ = other.units_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchReponse Clone() {
-      return new GetInformationAboutIssuanceMerchReponse(this);
+    public GetInfoAboutIssuanceMerchResponse Clone() {
+      return new GetInfoAboutIssuanceMerchResponse(this);
     }
 
-    /// <summary>Field number for the "merchs" field.</summary>
-    public const int MerchsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit> _repeated_merchs_codec
-        = pb::FieldCodec.ForMessage(10, global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit.Parser);
-    private readonly pbc::RepeatedField<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit> merchs_ = new pbc::RepeatedField<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit>();
+    /// <summary>Field number for the "units" field.</summary>
+    public const int UnitsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit> _repeated_units_codec
+        = pb::FieldCodec.ForMessage(10, global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit.Parser);
+    private readonly pbc::RepeatedField<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit> units_ = new pbc::RepeatedField<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::OzonEdu.Merchandise.Grpc.GetInformationAboutIssuanceMerchReponseUnit> Merchs {
-      get { return merchs_; }
+    public pbc::RepeatedField<global::OzonEdu.Merchandise.Grpc.GetInfoAboutIssuanceMerchResponseUnit> Units {
+      get { return units_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetInformationAboutIssuanceMerchReponse);
+      return Equals(other as GetInfoAboutIssuanceMerchResponse);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetInformationAboutIssuanceMerchReponse other) {
+    public bool Equals(GetInfoAboutIssuanceMerchResponse other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!merchs_.Equals(other.merchs_)) return false;
+      if(!units_.Equals(other.units_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -510,7 +509,7 @@ namespace OzonEdu.Merchandise.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= merchs_.GetHashCode();
+      hash ^= units_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -529,7 +528,7 @@ namespace OzonEdu.Merchandise.Grpc {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      merchs_.WriteTo(output, _repeated_merchs_codec);
+      units_.WriteTo(output, _repeated_units_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -540,7 +539,7 @@ namespace OzonEdu.Merchandise.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      merchs_.WriteTo(ref output, _repeated_merchs_codec);
+      units_.WriteTo(ref output, _repeated_units_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -551,7 +550,7 @@ namespace OzonEdu.Merchandise.Grpc {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += merchs_.CalculateSize(_repeated_merchs_codec);
+      size += units_.CalculateSize(_repeated_units_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -560,11 +559,11 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetInformationAboutIssuanceMerchReponse other) {
+    public void MergeFrom(GetInfoAboutIssuanceMerchResponse other) {
       if (other == null) {
         return;
       }
-      merchs_.Add(other.merchs_);
+      units_.Add(other.units_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -581,7 +580,7 @@ namespace OzonEdu.Merchandise.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            merchs_.AddEntriesFrom(input, _repeated_merchs_codec);
+            units_.AddEntriesFrom(input, _repeated_units_codec);
             break;
           }
         }
@@ -600,7 +599,7 @@ namespace OzonEdu.Merchandise.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            merchs_.AddEntriesFrom(ref input, _repeated_merchs_codec);
+            units_.AddEntriesFrom(ref input, _repeated_units_codec);
             break;
           }
         }
@@ -610,16 +609,16 @@ namespace OzonEdu.Merchandise.Grpc {
 
   }
 
-  public sealed partial class GetInformationAboutIssuanceMerchReponseUnit : pb::IMessage<GetInformationAboutIssuanceMerchReponseUnit>
+  public sealed partial class GetInfoAboutIssuanceMerchResponseUnit : pb::IMessage<GetInfoAboutIssuanceMerchResponseUnit>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<GetInformationAboutIssuanceMerchReponseUnit> _parser = new pb::MessageParser<GetInformationAboutIssuanceMerchReponseUnit>(() => new GetInformationAboutIssuanceMerchReponseUnit());
+    private static readonly pb::MessageParser<GetInfoAboutIssuanceMerchResponseUnit> _parser = new pb::MessageParser<GetInfoAboutIssuanceMerchResponseUnit>(() => new GetInfoAboutIssuanceMerchResponseUnit());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<GetInformationAboutIssuanceMerchReponseUnit> Parser { get { return _parser; } }
+    public static pb::MessageParser<GetInfoAboutIssuanceMerchResponseUnit> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -635,7 +634,7 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchReponseUnit() {
+    public GetInfoAboutIssuanceMerchResponseUnit() {
       OnConstruction();
     }
 
@@ -643,7 +642,7 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchReponseUnit(GetInformationAboutIssuanceMerchReponseUnit other) : this() {
+    public GetInfoAboutIssuanceMerchResponseUnit(GetInfoAboutIssuanceMerchResponseUnit other) : this() {
       itemId_ = other.itemId_;
       ItemName = other.ItemName;
       dateOfIssue_ = other.dateOfIssue_ != null ? other.dateOfIssue_.Clone() : null;
@@ -652,8 +651,8 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public GetInformationAboutIssuanceMerchReponseUnit Clone() {
-      return new GetInformationAboutIssuanceMerchReponseUnit(this);
+    public GetInfoAboutIssuanceMerchResponseUnit Clone() {
+      return new GetInfoAboutIssuanceMerchResponseUnit(this);
     }
 
     /// <summary>Field number for the "item_id" field.</summary>
@@ -697,12 +696,12 @@ namespace OzonEdu.Merchandise.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as GetInformationAboutIssuanceMerchReponseUnit);
+      return Equals(other as GetInfoAboutIssuanceMerchResponseUnit);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(GetInformationAboutIssuanceMerchReponseUnit other) {
+    public bool Equals(GetInfoAboutIssuanceMerchResponseUnit other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -799,7 +798,7 @@ namespace OzonEdu.Merchandise.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(GetInformationAboutIssuanceMerchReponseUnit other) {
+    public void MergeFrom(GetInfoAboutIssuanceMerchResponseUnit other) {
       if (other == null) {
         return;
       }

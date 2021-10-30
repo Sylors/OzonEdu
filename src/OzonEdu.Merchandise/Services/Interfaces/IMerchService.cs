@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using OzonEdu.Merchandise.HttpModels;
+using OzonEdu.Merchandise.Models;
 
 namespace OzonEdu.Merchandise.Services.Interfaces
 {
@@ -9,6 +9,6 @@ namespace OzonEdu.Merchandise.Services.Interfaces
     {
         Task RequestMerch(long employeeId, CancellationToken _);
 
-        Task<List<MerchItemResponse>> GetInformationAboutIssuanceMerch(long employeeId, CancellationToken _);
+        Task<List<MerchItemInfo>> GetInfoAboutIssuanceMerch(long employeeId, CancellationToken _);
     }
 }

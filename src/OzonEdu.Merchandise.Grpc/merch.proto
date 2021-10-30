@@ -7,25 +7,25 @@ import "google/protobuf/wrappers.proto";
 import "google/protobuf/timestamp.proto";
 
 service MerchGrpc {
-  
+
   rpc RequestMerch (RequestMerchRequest) returns (google.protobuf.Empty);
-  
-  rpc GetInformationAboutIssuanceMerch (GetInformationAboutIssuanceMerchRequest) returns (GetInformationAboutIssuanceMerchReponse);
+
+  rpc GetInfoAboutIssuanceMerch (GetInfoAboutIssuanceMerchRequest) returns (GetInfoAboutIssuanceMerchResponse);
 }
 
 message RequestMerchRequest {
   int64 employee_id = 1;
 }
 
-message GetInformationAboutIssuanceMerchRequest {
+message GetInfoAboutIssuanceMerchRequest {
   int64 employee_id = 1;
 }
 
-message GetInformationAboutIssuanceMerchReponse{
-  repeated GetInformationAboutIssuanceMerchReponseUnit merchs = 1;
+message GetInfoAboutIssuanceMerchResponse{
+  repeated GetInfoAboutIssuanceMerchResponseUnit units = 1;
 }
 
-message GetInformationAboutIssuanceMerchReponseUnit {
+message GetInfoAboutIssuanceMerchResponseUnit {
   int64 item_id = 1;
   google.protobuf.StringValue item_name = 2;
   google.protobuf.Timestamp date_of_issue = 3;
