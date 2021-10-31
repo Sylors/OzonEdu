@@ -1,0 +1,5 @@
+obj\Debug\net5.0/Merch.cs \
+obj\Debug\net5.0/MerchGrpc.cs: C:/Users/minic/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/empty.proto\
+ C:/Users/minic/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/wrappers.proto\
+ C:/Users/minic/.nuget/packages/grpc.tools/2.41.0/build/native/include/google/protobuf/timestamp.proto\
+ merch.proto
