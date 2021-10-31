@@ -14,7 +14,7 @@ namespace OzonEdu.Merchandise.HttpClients
     public interface IMerchHttpClients
     {
         Task RequestMerch(MerchRequestV1 model, CancellationToken token);
-        Task<MerchItemResponseV1> GetInfoAboutIssuanceMerch(long employeeId, CancellationToken token);
+        Task<MerchItemResponseV1> GetInfoAboutIssuanceMerch(MerchRequestV1 model, CancellationToken token);
     }
 
     public class MerchHttpClients : IMerchHttpClients
@@ -35,9 +35,9 @@ namespace OzonEdu.Merchandise.HttpClients
             //  return JsonSerializer.Deserialize<List<string>>(body);
         }
 
-        public async Task<MerchItemResponseV1> GetInfoAboutIssuanceMerch(long employeeId, CancellationToken token)
+        public async Task<MerchItemResponseV1> GetInfoAboutIssuanceMerch(MerchRequestV1 model, CancellationToken token)
         {
-            using var response = await _httpClient.GetAsync($"v1/api/merch/get-info-about-issuance-merch?employeeId={employeeId}", token);
+            using var response = await _httpClient.GetAsync($"v1/api/merch/get-info-about-issuance-merch?employeeId={model.EmployeeId}", token);
             var body = await response.Content.ReadAsStringAsync(token);
             return JsonSerializer.Deserialize<MerchItemResponseV1>(body);
         }
