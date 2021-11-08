@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MediatR;
 
-namespace OzonEdu.StockApi.Domain.Models
+namespace OzonEdu.Merchandise.Domain.Models
 {
     public abstract class Entity
     {

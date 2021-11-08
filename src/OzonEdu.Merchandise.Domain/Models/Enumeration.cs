@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace OzonEdu.StockApi.Domain.Models
+namespace OzonEdu.Merchandise.Domain.Models
 {
     public abstract class Enumeration : IComparable
     {

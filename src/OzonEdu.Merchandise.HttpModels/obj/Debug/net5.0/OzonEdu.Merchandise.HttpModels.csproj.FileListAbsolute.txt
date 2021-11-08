@@ -10,3 +10,15 @@ E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\Ozo
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\ref\OzonEdu.Merchandise.HttpModels.dll
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.pdb
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.deps.json
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpModels.dll
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.pdb
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.csproj.AssemblyReference.cache
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.AssemblyInfoInputs.cache
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.AssemblyInfo.cs
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.csproj.CoreCompileInputs.cache
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\ref\OzonEdu.Merchandise.HttpModels.dll
+D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\obj\Debug\net5.0\OzonEdu.Merchandise.HttpModels.pdb

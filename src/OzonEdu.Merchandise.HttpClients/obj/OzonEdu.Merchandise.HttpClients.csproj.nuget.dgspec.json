@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj": {}
+    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj": {}
   },
   "projects": {
-    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj": {
+    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
+        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
         "projectName": "OzonEdu.Merchandise.HttpClients",
-        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
-        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
-        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\obj\\",
+        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
+        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
-                "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj"
+              "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
+                "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj"
               }
             }
           }
@@ -65,20 +62,17 @@
         }
       }
     },
-    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
+    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
+        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
         "projectName": "OzonEdu.Merchandise.HttpModels",
-        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
-        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
-        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\obj\\",
+        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
+        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

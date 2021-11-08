@@ -1,4 +1,4 @@
-﻿namespace OzonEdu.StockApi.Domain.Models
+﻿namespace OzonEdu.Merchandise.Domain.Models
 {
     public interface IAggregationRoot
     {

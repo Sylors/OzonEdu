@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\minic\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Хозяин\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
+      "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
       "projectName": "OzonEdu.Merchandise.HttpModels",
-      "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
-      "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
-      "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\obj\\",
+      "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
+      "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
