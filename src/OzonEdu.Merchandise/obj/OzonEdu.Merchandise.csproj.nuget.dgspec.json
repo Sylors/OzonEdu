@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj": {}
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj": {
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj",
+        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj",
         "projectName": "OzonEdu.Merchandise.Domain",
-        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Domain\\obj\\",
+        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj",
+        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,17 +67,20 @@
         }
       }
     },
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
+        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
         "projectName": "OzonEdu.Merchandise.Grpc",
-        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\obj\\",
+        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
+        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,17 +140,20 @@
         }
       }
     },
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
+        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
         "projectName": "OzonEdu.Merchandise.HttpModels",
-        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\obj\\",
+        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj",
+        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -188,17 +197,20 @@
         }
       }
     },
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj": {
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj",
+        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj",
         "projectName": "OzonEdu.Merchandise.Infrastructure",
-        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\obj\\",
+        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -212,8 +224,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj": {
-                "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj"
+              "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj": {
+                "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Domain\\OzonEdu.Merchandise.Domain.csproj"
               }
             }
           }
@@ -229,6 +241,10 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
             }
@@ -252,17 +268,20 @@
         }
       }
     },
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj": {
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj",
+        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj",
         "projectName": "OzonEdu.Merchandise",
-        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise\\obj\\",
+        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj",
+        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -276,14 +295,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {
-                "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj"
+              "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {
+                "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj"
               },
-              "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
-                "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj"
+              "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
+                "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj"
               },
-              "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj": {
-                "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj"
+              "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj": {
+                "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Infrastructure\\OzonEdu.Merchandise.Infrastructure.csproj"
               }
             }
           }
@@ -303,6 +322,10 @@
               "version": "[2.40.0, )"
             },
             "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[9.0.0, )"
             },

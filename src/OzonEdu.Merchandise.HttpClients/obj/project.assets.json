@@ -27,19 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Хозяин\\.nuget\\packages\\": {}
+    "C:\\Users\\minic\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
+      "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
       "projectName": "OzonEdu.Merchandise.HttpClients",
-      "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
-      "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\obj\\",
+      "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\OzonEdu.Merchandise.HttpClients.csproj",
+      "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+      "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpClients\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +57,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
-              "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj"
+            "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj": {
+              "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.HttpModels\\OzonEdu.Merchandise.HttpModels.csproj"
             }
           }
         }

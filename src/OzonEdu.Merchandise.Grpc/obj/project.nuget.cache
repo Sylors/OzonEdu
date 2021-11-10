@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "vXDAZSjCmJngg0H3pSg/whZ0aR1esI1vWO1tll0JzxiXVXFPrs7hLC2djp/p6EihY6717TU/B5Ujhhtl8jdFWw==",
+  "dgSpecHash": "k0lplNGB8ky7p33IhMCb9fwnp3Ye2eVBc303ygVG5CRBEFb3MFHE8QhbhonzLZGnnRNYThTxweU9pI0WFsa5fg==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
+  "projectFilePath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Хозяин\\.nuget\\packages\\google.protobuf\\3.19.0\\google.protobuf.3.19.0.nupkg.sha512",
-    "C:\\Users\\Хозяин\\.nuget\\packages\\grpc.core.api\\2.40.0\\grpc.core.api.2.40.0.nupkg.sha512",
-    "C:\\Users\\Хозяин\\.nuget\\packages\\grpc.net.client\\2.40.0\\grpc.net.client.2.40.0.nupkg.sha512",
-    "C:\\Users\\Хозяин\\.nuget\\packages\\grpc.net.common\\2.40.0\\grpc.net.common.2.40.0.nupkg.sha512",
-    "C:\\Users\\Хозяин\\.nuget\\packages\\grpc.tools\\2.41.0\\grpc.tools.2.41.0.nupkg.sha512",
-    "C:\\Users\\Хозяин\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
-    "C:\\Users\\Хозяин\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\minic\\.nuget\\packages\\google.protobuf\\3.19.0\\google.protobuf.3.19.0.nupkg.sha512",
+    "C:\\Users\\minic\\.nuget\\packages\\grpc.core.api\\2.40.0\\grpc.core.api.2.40.0.nupkg.sha512",
+    "C:\\Users\\minic\\.nuget\\packages\\grpc.net.client\\2.40.0\\grpc.net.client.2.40.0.nupkg.sha512",
+    "C:\\Users\\minic\\.nuget\\packages\\grpc.net.common\\2.40.0\\grpc.net.common.2.40.0.nupkg.sha512",
+    "C:\\Users\\minic\\.nuget\\packages\\grpc.tools\\2.41.0\\grpc.tools.2.41.0.nupkg.sha512",
+    "C:\\Users\\minic\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\minic\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

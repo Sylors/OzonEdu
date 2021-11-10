@@ -23,7 +23,7 @@ namespace OzonEdu.Merchandise.Infrastructure.Handlers.MerchRequestAggregate
             
             var merchRequest = new MerchRequest(
                 null,
-                RequestStatus.InWork//,
+                RequestStatus.InProgress//,
                 //request.SkuCollection.Select(it => new Sku(it)).ToList()
                 );
             

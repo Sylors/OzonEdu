@@ -1,6 +1,9 @@
-﻿namespace OzonEdu.Merchandise.Domain.AggregatesModels.MerchRequestAggregate
+﻿using System.Collections.Generic;
+using OzonEdu.Merchandise.Domain.Models;
+
+namespace OzonEdu.Merchandise.Domain.AggregatesModels.MerchRequestAggregate
 {
-    public class RequestNumber
+    public class RequestNumber : ValueObject
     {
         public RequestNumber(long value)
         {
@@ -8,5 +11,10 @@
         }
 
         public long Value { get; }
+        
+        protected override IEnumerable<object> GetEqualityComponents()
+        {
+            yield return Value;
+        }
     }
 }

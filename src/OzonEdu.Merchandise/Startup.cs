@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using OzonEdu.Merchandise.GrpsServices;
+using OzonEdu.Merchandise.Infrastructure.Extensions;
 using OzonEdu.Merchandise.Infrastructure.Interceptors;
 using OzonEdu.Merchandise.Infrastructure.Middlewares;
 using OzonEdu.Merchandise.Services;
@@ -23,6 +24,7 @@ namespace OzonEdu.Merchandise
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IMerchService, MerchService>();
+            services.AddInfrastructureServices();
             services.AddGrpc(options => options.Interceptors.Add<LoggingInterceptor>());
         }
 

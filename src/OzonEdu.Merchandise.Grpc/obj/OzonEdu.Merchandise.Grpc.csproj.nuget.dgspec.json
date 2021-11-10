@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {}
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {
+    "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
+        "projectUniqueName": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
         "projectName": "OzonEdu.Merchandise.Grpc",
-        "projectPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
-        "packagesPath": "C:\\Users\\Хозяин\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\OzonEdu\\nminich\\src\\OzonEdu.Merchandise.Grpc\\obj\\",
+        "projectPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\OzonEdu.Merchandise.Grpc.csproj",
+        "packagesPath": "C:\\Users\\minic\\.nuget\\packages\\",
+        "outputPath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Grpc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Хозяин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

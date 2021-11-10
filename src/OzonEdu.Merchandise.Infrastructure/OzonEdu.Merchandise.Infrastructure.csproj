@@ -6,10 +6,15 @@
 
     <ItemGroup>
       <PackageReference Include="MediatR" Version="9.0.0" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\OzonEdu.Merchandise.Domain\OzonEdu.Merchandise.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DomainServices" />
     </ItemGroup>
 
 </Project>
