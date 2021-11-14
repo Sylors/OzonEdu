@@ -1,6 +1,6 @@
 ﻿using OzonEdu.Merchandise.Domain.Models;
 
-namespace OzonEdu.Merchandise.Domain.AggregatesModels.MerchRequestAggregate
+namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
     public class RequestStatus : Enumeration
     {

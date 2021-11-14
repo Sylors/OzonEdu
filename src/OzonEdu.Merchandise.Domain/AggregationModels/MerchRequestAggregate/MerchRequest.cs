@@ -1,18 +1,19 @@
 ﻿using System;
-using OzonEdu.Merchandise.Domain.AggregatesModels.MerchRequestAggregate;
+using System.Linq;
+using OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate;
 using OzonEdu.Merchandise.Domain.Exceptions.MerchRequestAggregate;
 using OzonEdu.Merchandise.Domain.Models;
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
-    public class MerchRequest : Entity
+    public class MerchRequest : Entity, IAggregationRoot
     {
-        public MerchRequest(RequestNumber requestNumber,
-            RequestStatus requestStatus)
-        {
-            Number = requestNumber;
-            Status = requestStatus;
-        }
+        // public MerchRequest(RequestNumber requestNumber,
+        //     RequestStatus requestStatus)
+        // {
+        //     Number = requestNumber;
+        //     Status = requestStatus;
+        // }
         
         /// <summary>
         /// Номер заявки
@@ -74,6 +75,11 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
             ResponsibleManagerId = responsibleManagerId;
             Status = RequestStatus.InProgress;
             Items = items;
+        }
+        
+        public void SetRequestNumber(RequestNumber number)
+        {
+            Number = number;
         }
 
         /// <summary>

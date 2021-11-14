@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using OzonEdu.Merchandise.Domain.Models;
 
-namespace OzonEdu.Merchandise.Domain.AggregatesModels.MerchRequestAggregate
+namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
     public sealed class SkuList : ValueObject, IEnumerable<Sku>
     {

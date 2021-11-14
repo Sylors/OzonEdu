@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using OzonEdu.Merchandise.Domain.Models;
 
-namespace OzonEdu.Merchandise.Domain.AggregatesModels.MerchRequestAggregate
+namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
     public class RequestNumber : ValueObject
     {

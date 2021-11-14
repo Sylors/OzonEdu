@@ -9,7 +9,7 @@ using OzonEdu.Merchandise.HttpModels;
 using OzonEdu.Merchandise.HttpModels.Merch.V1.Requests;
 using OzonEdu.Merchandise.HttpModels.Merch.V1.Responses;
 using OzonEdu.Merchandise.Infrastructure.Commands.MerchRequestAggregate;
-using OzonEdu.Merchandise.Infrastructure.Queries.MerchRequestAggregate;
+using OzonEdu.Merchandise.Infrastructure.Queries.MerchAggregate;
 using OzonEdu.Merchandise.Services.Interfaces;
 
 namespace OzonEdu.Merchandise.Controllers.V1
@@ -33,11 +33,8 @@ namespace OzonEdu.Merchandise.Controllers.V1
         {
             //await _merchService.RequestMerch(merchRequest.EmployeeId, token);
 
-            var createMerchRequestCommand = new CreateMerchRequestCommand()
-            {
-                EmployeeId = merchRequest.EmployeeId,
-                SkuList = merchRequest.SkuList
-            };
+            var createMerchRequestCommand =
+                new CreateMerchRequestCommand(merchRequest.EmployeeId, merchRequest.SkuList);
 
             var result = await _mediator.Send(createMerchRequestCommand, token);
             return Ok();
@@ -48,11 +45,8 @@ namespace OzonEdu.Merchandise.Controllers.V1
             CancellationToken token)
         {
             //var result = await _merchService.GetInfoAboutIssuanceMerch(employeeId, token);
-            var query = new RequestMerchQuery()
-            {
-                EmployeeId = employeeId
-            };
-            
+            var query = new RequestMerchQuery(employeeId);
+
             var result = await _mediator.Send(query, token);
             return Ok(result);
         }

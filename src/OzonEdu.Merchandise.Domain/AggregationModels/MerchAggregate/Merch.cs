@@ -2,7 +2,7 @@
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchAggregate
 {
-    public class Merch : Entity
+    public class Merch : Entity, IAggregationRoot
     {
         public Merch(Name name, Description description, MerchType merchType, Quantity quantity)
         {
@@ -13,9 +13,9 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchAggregate
         }
 
 
-        public Name Name { get; }
-        public Description Description { get; }
-        public MerchType MerchType { get; }
-        public Quantity Quantity { get; }
+        public Name Name { get; private set; }
+        public Description Description { get; private set; }
+        public MerchType MerchType { get; private set; }
+        public Quantity Quantity { get; private set; }
     }
 }
