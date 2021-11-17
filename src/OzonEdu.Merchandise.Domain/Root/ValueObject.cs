@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace OzonEdu.Merchandise.Domain.Models
+namespace OzonEdu.Merchandise.Domain.Root
 {
     public abstract class ValueObject
     {

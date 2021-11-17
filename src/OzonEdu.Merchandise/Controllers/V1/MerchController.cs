@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 using OzonEdu.Merchandise.HttpModels;
 using OzonEdu.Merchandise.HttpModels.Merch.V1.Requests;
 using OzonEdu.Merchandise.HttpModels.Merch.V1.Responses;
-using OzonEdu.Merchandise.Infrastructure.Commands.MerchRequestAggregate;
-using OzonEdu.Merchandise.Infrastructure.Queries.MerchAggregate;
+using OzonEdu.Merchandise.Infrastructure.Commands.CreateMerchRequest;
+using OzonEdu.Merchandise.Infrastructure.Queries.GetInfoAboutIssuanceMerch;
 using OzonEdu.Merchandise.Services.Interfaces;
 
 namespace OzonEdu.Merchandise.Controllers.V1
@@ -34,18 +34,19 @@ namespace OzonEdu.Merchandise.Controllers.V1
             //await _merchService.RequestMerch(merchRequest.EmployeeId, token);
 
             var createMerchRequestCommand =
-                new CreateMerchRequestCommand(merchRequest.EmployeeId, merchRequest.SkuList);
+                new CreateMerchRequestCommand(merchRequest.EmployeeId, merchRequest.EmployeeEmail, merchRequest.MerchSetType,
+                    merchRequest.ClothingSize);
 
             var result = await _mediator.Send(createMerchRequestCommand, token);
             return Ok();
         }
-        
+
         [HttpGet("get-info-about-issuance-merch")]
         public async Task<ActionResult<V1MerchItemResponse>> GetInfoAboutIssuanceMerch(long employeeId,
             CancellationToken token)
         {
             //var result = await _merchService.GetInfoAboutIssuanceMerch(employeeId, token);
-            var query = new RequestMerchQuery(employeeId);
+            var query = new GetInfoAboutIssuanceMerchQuery(employeeId);
 
             var result = await _mediator.Send(query, token);
             return Ok(result);

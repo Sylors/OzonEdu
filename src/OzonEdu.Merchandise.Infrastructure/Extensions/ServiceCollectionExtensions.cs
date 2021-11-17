@@ -1,7 +1,7 @@
 ﻿using System;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using OzonEdu.Merchandise.Infrastructure.Handlers.MerchRequestAggregate;
+using OzonEdu.Merchandise.Infrastructure.Handlers.CreateMerchRequest;
 
 namespace OzonEdu.Merchandise.Infrastructure.Extensions
 {

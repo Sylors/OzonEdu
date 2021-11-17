@@ -1,15 +1,13 @@
-﻿using OzonEdu.Merchandise.Domain.Models;
+﻿using OzonEdu.Merchandise.Domain.Root;
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
     public class RequestStatus : Enumeration
     {
-        public static RequestStatus Draft = new(1, "Draft");
-        public static RequestStatus Created = new(2, "Created");
-        public static RequestStatus Assigned = new(3, "Assigned");
-        public static RequestStatus InProgress = new(4, "InProgress");
-        public static RequestStatus Done = new(5, "Done");
-
+        public static RequestStatus Created = new(1, "Created");
+        public static RequestStatus InWork = new(2, "InWork");
+        public static RequestStatus Done = new(3, "Done");
+        public static RequestStatus Declined = new(4, "Declined");
         public RequestStatus(int id, string name) : base(id, name)
         {
         }

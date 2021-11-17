@@ -8,6 +8,6 @@ namespace OzonEdu.Merchandise.Infrastructure.Repositories
 {
     public interface IMerchRepository : IRepository<Merch>
     {
-        Task<List<Merch>> GetMerchReceivedByEmployee(long employeeId, CancellationToken cancellationToken = default);
+        
     }
 }

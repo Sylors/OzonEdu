@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using OzonEdu.Merchandise.Domain.Models;
+using OzonEdu.Merchandise.Domain.Root;
 
 namespace OzonEdu.Merchandise.Domain.Contracts
 {

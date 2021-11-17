@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using OzonEdu.Merchandise.Domain.Models;
+using OzonEdu.Merchandise.Domain.Root;
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchAggregate
 {

@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
-using OzonEdu.Merchandise.Domain.Models;
+using OzonEdu.Merchandise.Domain.Root;
 
-namespace OzonEdu.Merchandise.Domain.AggregationModels.EmployeeAggregate
+namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
-    public class MiddleName : ValueObject
+    public class EmployeeName : ValueObject
     {
         public string Value { get; }
 
-        public MiddleName(string name)
+        public EmployeeName(string name)
         {
             Value = name;
         }

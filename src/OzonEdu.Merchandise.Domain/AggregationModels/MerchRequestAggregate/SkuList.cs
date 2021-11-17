@@ -1,41 +1,47 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using OzonEdu.Merchandise.Domain.Models;
+using OzonEdu.Merchandise.Domain.Root;
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
-    public sealed class SkuList : ValueObject, IEnumerable<Sku>
+    public sealed class SkuSet : Entity
     {
-        private List<Sku> Items { get; }
-
-        public SkuList(IEnumerable<Sku> items)
-            => Items = new List<Sku>(items);
+        public IReadOnlyCollection<Sku> Items { get; private set; }
         
-        public IEnumerator<Sku> GetEnumerator()
-            => Items.GetEnumerator();
+        public SetType Type { get; private set; }
 
-        /// <inheritdoc />
-        IEnumerator IEnumerable.GetEnumerator()
-            => GetEnumerator();
-        
-        /// <summary>
-        /// Так как SkuList это Value object и он неизменяый,
-        /// то если мы хотим добавить еще один элемент к нему
-        /// необходимо создать новый SkuList
-        /// </summary>
-        public SkuList AddSku(string name, string category, string code)
+        public SkuSet(long id, IReadOnlyCollection<Sku> skuCollection, SetType type)
         {
-            var items = Items.ToList();
-            items.Add(new Sku(name, category, code));
+            Id = id;
+            Items = skuCollection;
+            Type = type;
+        }
 
-            return new SkuList(items);
+        public void AddSkuTolist(IReadOnlyCollection<Sku> skuCollection)
+        {
+            var intersect = Items.Select(x => x.Value).Intersect(skuCollection.Select(x => x.Value));
+            if (intersect.Any())
+            {
+                throw new Exception($"Sku with ids {string.Join(", ", intersect)} already added");
+            }
+
+            Items = Items.Union(skuCollection).ToList();
         }
         
-        protected override IEnumerable<object> GetEqualityComponents()
+        public void DeletedSkuFromList(IReadOnlyCollection<Sku> skuCollection)
         {
-            yield return Items;
+            var except = Items.Select(x => x.Value).Except(skuCollection.Select(x => x.Value));
+            if (except.Any())
+            {
+                throw new Exception($"Sku with ids {string.Join(", ", except)} not exist");
+            }
+
+            Items = Items.Intersect(skuCollection).ToList();
         }
+        
+ 
         
     }
 }

@@ -1,5 +1,6 @@
-﻿using System.Collections.Generic;
-using OzonEdu.Merchandise.Domain.Models;
+﻿using System;
+using System.Collections.Generic;
+using OzonEdu.Merchandise.Domain.Root;
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
@@ -8,24 +9,27 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
     /// </summary>
     public sealed class Sku : ValueObject
     {
-        public Sku(string name, string category, string code)
-        {
-            Name = name;
-            Category = category;
-            Code = code;
-        }
+        public long Value { get; }
         
-        public string Name { get; }
+        private Sku(long value)
+        {
+            Value = value;
+        }
 
-        public string Category { get; }
+        public static Sku Create(long skuValue)
+        {
+            if (skuValue <= 0)
+            {
+                throw new  Exception($"Sku value is invalid: {skuValue}");
+            }
 
-        public string Code { get; }
+            return new Sku(skuValue);
+        }
 
         protected override IEnumerable<object> GetEqualityComponents()
         {
-            yield return Name;
-            yield return Category;
-            yield return Code;
+            yield return Value;
+
         }
     }
 }

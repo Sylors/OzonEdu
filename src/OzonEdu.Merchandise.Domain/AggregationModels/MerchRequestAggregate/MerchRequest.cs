@@ -1,20 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate;
+using OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate.DomainEvents;
 using OzonEdu.Merchandise.Domain.Exceptions.MerchRequestAggregate;
-using OzonEdu.Merchandise.Domain.Models;
+using OzonEdu.Merchandise.Domain.Root;
 
 namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
     public class MerchRequest : Entity, IAggregationRoot
     {
-        // public MerchRequest(RequestNumber requestNumber,
-        //     RequestStatus requestStatus)
-        // {
-        //     Number = requestNumber;
-        //     Status = requestStatus;
-        // }
-        
+        public MerchRequest(RequestNumber number, RequestStatus status, Employee employee, long responsibleManagerId,
+            SkuSet skuSet, DateTimeOffset creationDate, DateTimeOffset? giveOutDate)
+        {
+            Number = number;
+            Status = status;
+            Employee = employee;
+            ResponsibleManagerId = responsibleManagerId;
+            SkuSet = skuSet;
+            CreationDate = creationDate;
+            GiveOutDate = giveOutDate;
+        }
+
         /// <summary>
         /// Номер заявки
         /// </summary>
@@ -24,117 +31,87 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
         /// Статус заявки
         /// </summary>
         public RequestStatus Status { get; private set; }
-        
+
         /// <summary>
-        /// Идентификатор сотрудника, которому предназначен мерч
+        /// Cотрудник, которому предназначен мерч
         /// </summary>
-        public long EmployeeId { get; private set; }
+        public Employee Employee { get; }
+
         /// <summary>
         /// ID ответственного менеджера за выдачу мерча
         /// </summary>
         public long ResponsibleManagerId { get; private set; }
-        
+
         /// <summary>
         /// Коллекция идентификаторов мерча
         /// </summary>
-        public SkuList Items { get ; private set ;}
-
-
-        // public void ChangeStatus(RequestStatus status)
-        // {
-        //     if (RequestStatus.Equals(RequestStatus.Done))
-        //         throw new MerchRequestStatusException($"Request in done. Change status unavailable");
-        //     
-        //     RequestStatus = status;
-        // }
-
-        public MerchRequest()
-            : base()
-        {
-            Id = 0;
-            Status = RequestStatus.Draft;
-        }
-
-        public MerchRequest(long employeeId)
-            : this()
-        {
-            EmployeeId = employeeId;
-            Status = RequestStatus.Created;
-        }
-
-        public MerchRequest(long employeeId, long responsibleManagerId)
-            : this(employeeId)
-        {
-            ResponsibleManagerId = responsibleManagerId;
-            Status = RequestStatus.Assigned;
-        }
-
-        public MerchRequest(long employeeId, long responsibleManagerId, SkuList items)
-            : this(employeeId, responsibleManagerId)
-        {
-            ResponsibleManagerId = responsibleManagerId;
-            Status = RequestStatus.InProgress;
-            Items = items;
-        }
-        
-        public void SetRequestNumber(RequestNumber number)
-        {
-            Number = number;
-        }
+        public SkuSet SkuSet { get; private set; }
 
         /// <summary>
-        /// Создаем заявку для конкретного сотрудника
+        /// Дата создания заявки
         /// </summary>
-        public void Create(long employeeId)
-        {
-            if (Status != RequestStatus.Draft)
-            {
-                throw new Exception("Incorrect request status");
-            }
-            EmployeeId = employeeId;
-            Status = RequestStatus.Created;
-        }
+        public DateTimeOffset CreationDate { get; }
 
         /// <summary>
-        /// Назначаем заявку на мерч ответственному менеджеру
-        /// Если заявка не в статусе Created, то выбрасываем исключение
+        /// Дата выдачи мерча
         /// </summary>
-        public void AssignTo(long responsibleManagerId)
-        {
-            if (Status != RequestStatus.Created)
-            {
-                throw new Exception("Incorrect request status");
-            }
+        public DateTimeOffset? GiveOutDate { get; private set; }
 
-            Status = RequestStatus.Assigned;
-            ResponsibleManagerId = responsibleManagerId;
+
+        private MerchRequest(Employee employee, SkuSet items, DateTimeOffset creationDate)
+        {
+            Employee = employee;
+            SkuSet = items;
+            CreationDate = creationDate;
         }
 
-        /// <summary>
-        /// Берем заявку на мерч в работу
-        /// </summary>
-        public void StartWork(SkuList items)
+        public static MerchRequest Create(Employee employee, SkuSet skuList,
+            IReadOnlyCollection<MerchRequest> alreadyExistedRequest, DateTimeOffset creationDate)
         {
-            if (Status != RequestStatus.Assigned)
+            MerchRequest merchRequest = new MerchRequest(employee, skuList, creationDate);
+            if (!merchRequest.CheckAvailabilityToGiveOut(alreadyExistedRequest, creationDate))
             {
-                throw new Exception("Incorrect request status");
+                throw new Exception("");
             }
 
-            Items = items;
-            Status = RequestStatus.InProgress;
+            return merchRequest;
         }
 
-        /// <summary>
-        /// Завершить работу по заявке
-        /// </summary>
-        public void Complete()
+        public void GiveOut(bool isAvalible, DateTimeOffset giveOutDate)
         {
-            if (Status != RequestStatus.InProgress)
+            if (Equals(Status, RequestStatus.Created) || Equals(Status, RequestStatus.InWork))
             {
-                throw new Exception("Incorrect request status");
+                if (isAvalible)
+                {
+                    Status = RequestStatus.Done;
+                    GiveOutDate = giveOutDate;
+                    AddDomainEvent(new MerchRequestGiveOut {Employee = Employee, SkuList = SkuSet});
+                }
+                else
+                {
+                    Status = RequestStatus.InWork;
+                }
+            }
+            else
+            {
+                throw new Exception($"Unable to give out merch for request in {Status} status");
+            }
+        }
+
+        public void Decline()
+        {
+            if (Equals(Status, RequestStatus.Done) || Equals(Status, RequestStatus.Declined))
+            {
+                throw new Exception($"Unable to Decline merch request in {Status} status");
             }
 
-            Status = RequestStatus.Done;
+            Status = RequestStatus.Declined;
+        }
+
+        private bool CheckAvailabilityToGiveOut(IReadOnlyCollection<MerchRequest> alreadyExistedRequest,
+            DateTimeOffset giveOutDate)
+        {
+            return true;
         }
     }
 }
