@@ -4,7 +4,7 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 {
     public class Employee : Entity
     {
-        public Employee(long id, Email email,ClothingSize clothingSize)
+        public Employee(long id, Email email, ClothingSize clothingSize)
         {
             Id = id;
             Email = email;

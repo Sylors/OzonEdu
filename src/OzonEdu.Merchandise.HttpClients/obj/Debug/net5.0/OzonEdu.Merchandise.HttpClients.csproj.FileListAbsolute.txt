@@ -12,7 +12,6 @@ E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\re
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.pdb
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.pdb
-E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpClients\obj\Debug\net5.0\OzonEdu.Merchandise.HttpClients.csproj.CopyComplete
 D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.deps.json
 D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\OzonEdu.Merchandise.HttpClients.dll
 D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpClients\bin\Debug\net5.0\ref\OzonEdu.Merchandise.HttpClients.dll

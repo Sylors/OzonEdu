@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "WzDK82mfGQxoINV9S3eUNJSfG+Exfl2Ia1nD8gJ/U7MlxjEr6VzrsEDvnwSsh17Z2IGCYzcq7n1JIybax1MTKw==",
-  "success": true,
+  "dgSpecHash": "wJsBy0QcAZ6jlLOfNYOfKgxcB54af9OQO/4znYuVUCVWR2jVPBc3ywsoYw24e5bfilUVqiajzN+jKtqVYUpMVA==",
+  "success": false,
   "projectFilePath": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise\\OzonEdu.Merchandise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minic\\.nuget\\packages\\google.protobuf\\3.19.0\\google.protobuf.3.19.0.nupkg.sha512",
@@ -33,5 +33,15 @@
     "C:\\Users\\minic\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\minic\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Migrators\\OzonEdu.Merchandise.Migrator.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "E:\\RiderProjects\\nminich\\src\\OzonEdu.Merchandise.Migrators\\OzonEdu.Merchandise.Migrator.csproj",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
