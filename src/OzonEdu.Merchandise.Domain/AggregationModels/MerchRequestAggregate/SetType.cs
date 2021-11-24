@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Runtime.Intrinsics.X86;
 using OzonEdu.Merchandise.Domain.Root;
 
@@ -14,6 +15,10 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
 
         public SetType(int id, string name) : base(id, name)
         {
+            if (id <= 0)
+            {
+                throw new Exception($"Can't create SetType with negative id : '{id}'");
+            }
         }
         
         public static SetType Parse(string setTypeStr)

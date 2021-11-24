@@ -32,13 +32,13 @@ namespace OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate
         
         public void DeletedSkuFromList(IReadOnlyCollection<Sku> skuCollection)
         {
-            var except = Items.Select(x => x.Value).Except(skuCollection.Select(x => x.Value));
+            var except = skuCollection.Select(x => x.Value).Except(Items.Select(x => x.Value));
             if (except.Any())
             {
                 throw new Exception($"Sku with ids {string.Join(", ", except)} not exist");
             }
 
-            Items = Items.Intersect(skuCollection).ToList();
+            Items = Items.Except(skuCollection).ToList();
         }
         
  

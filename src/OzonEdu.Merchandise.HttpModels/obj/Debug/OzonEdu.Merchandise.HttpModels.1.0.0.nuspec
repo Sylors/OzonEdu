@@ -10,6 +10,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="D:\Repos\OzonEdu\nminich\src\OzonEdu.Merchandise.HttpModels\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll" target="lib\net5.0\OzonEdu.Merchandise.HttpModels.dll" />
+    <file src="E:\RiderProjects\nminich\src\OzonEdu.Merchandise.HttpModels\bin\Debug\net5.0\OzonEdu.Merchandise.HttpModels.dll" target="lib\net5.0\OzonEdu.Merchandise.HttpModels.dll" />
   </files>
 </package>
