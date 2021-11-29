@@ -2,7 +2,7 @@
 
 namespace OzonEdu.Merchandise.HttpModels.Merch.V1.Responses
 {
-    public class MerchItemResponseUnitV1
+    public class V1MerchItemResponseUnit
     {
         public long ItemId { get; set; }
         

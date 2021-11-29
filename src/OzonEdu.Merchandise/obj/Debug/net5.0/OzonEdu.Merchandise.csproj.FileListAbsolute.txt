@@ -61,3 +61,9 @@ E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Mercha
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise\obj\Debug\net5.0\OzonEdu.Merchandise.csproj.CopyComplete
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Merchandise.Grpc.dll
 E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Merchandise.Grpc.pdb
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\MediatR.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Merchandise.Domain.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Merchandise.Infrastructure.dll
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Merchandise.Infrastructure.pdb
+E:\RiderProjects\nminich\src\OzonEdu.Merchandise\bin\Debug\net5.0\OzonEdu.Merchandise.Domain.pdb
