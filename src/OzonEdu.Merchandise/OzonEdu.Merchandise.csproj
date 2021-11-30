@@ -15,7 +15,7 @@
       <ProjectReference Include="..\OzonEdu.Merchandise.Grpc\OzonEdu.Merchandise.Grpc.csproj" />
       <ProjectReference Include="..\OzonEdu.Merchandise.HttpModels\OzonEdu.Merchandise.HttpModels.csproj" />
       <ProjectReference Include="..\OzonEdu.Merchandise.Infrastructure\OzonEdu.Merchandise.Infrastructure.csproj" />
-      <ProjectReference Include="..\OzonEdu.Merchandise.Migrators\OzonEdu.Merchandise.Migrator.csproj" />
+      <ProjectReference Include="..\OzonEdu.Merchandise.Migrator\OzonEdu.Merchandise.Migrator.csproj" />
     </ItemGroup>
 
     <ItemGroup>
