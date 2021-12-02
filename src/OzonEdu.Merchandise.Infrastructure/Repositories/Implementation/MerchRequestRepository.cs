@@ -1,16 +1,51 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using Dapper;
+using Npgsql;
 using OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate;
 using OzonEdu.Merchandise.Domain.Contracts;
+using OzonEdu.Merchandise.Infrastructure.Repositories.Infrastructure;
+using OzonEdu.Merchandise.Infrastructure.Repositories.Infrastructure.Interfaces;
 
 namespace OzonEdu.Merchandise.Infrastructure.Repositories.Implementation
 {
     public class MerchRequestRepository : IMerchRequestRepository
     {
-        public Task<List<MerchRequest>> GetMerchReceivedByEmployeeIdAsync(long employeeId, CancellationToken cancellationToken = default)
+        private readonly IDbConnectionFactory<NpgsqlConnection> _dbConnectionFactory;       
+        private readonly IQueryExecutor _queryExecutor;
+        private const int Timeout = 5;
+        public MerchRequestRepository(IDbConnectionFactory<NpgsqlConnection> dbConnectionFactory,IQueryExecutor queryExecutor)
         {
-            throw new System.NotImplementedException();
+            _dbConnectionFactory = dbConnectionFactory;
+            _queryExecutor = queryExecutor;
+        }
+        
+        public async Task<List<MerchRequest>> GetMerchReceivedByEmployeeIdAsync(long employeeId, CancellationToken cancellationToken = default)
+        {
+            const string sql = @"
+                SELECT 
+                       mrs.
+                FROM merch_requests AS mrs                
+                WHERE mrs.employee_id = @EmployeeId;";
+
+            var parameters = new
+            {
+                EmployeeId = employeeId,
+            };
+            var commandDefinition = new CommandDefinition(
+                sql,
+                parameters: parameters,
+                commandTimeout: Timeout,
+                cancellationToken: cancellationToken);
+            var connection = await _dbConnectionFactory.CreateConnection(cancellationToken);
+            
+            // return await _queryExecutor.Execute(async () =>
+            // {
+            //     // var result = await connection.QueryAsync<Models.ItemType>(commandDefinition);
+            //     // return result.Select(x => new Item(new ItemType(x.Id, x.Name)));
+            // });
+            return new List<MerchRequest>();
         }
 
         Task<long> IMerchRequestRepository.CreateAsync(MerchRequest merchRequest, CancellationToken cancellationToken)

@@ -2,7 +2,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace OzonEdu.Merchandise.Infrastructure.Repositories
+namespace OzonEdu.Merchandise.Infrastructure.Repositories.Infrastructure
 {
     /// <summary>
     /// Фабрика подключений к базе данных.
