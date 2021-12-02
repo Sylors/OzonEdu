@@ -1,17 +1,23 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using Dapper;
 using Npgsql;
 using OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate;
 using OzonEdu.Merchandise.Domain.Contracts;
 using OzonEdu.Merchandise.Infrastructure.Repositories.Infrastructure;
 using OzonEdu.Merchandise.Infrastructure.Repositories.Infrastructure.Interfaces;
+=======
+using OzonEdu.Merchandise.Domain.AggregationModels.MerchRequestAggregate;
+using OzonEdu.Merchandise.Domain.Contracts;
+>>>>>>> origin/workshop4
 
 namespace OzonEdu.Merchandise.Infrastructure.Repositories.Implementation
 {
     public class MerchRequestRepository : IMerchRequestRepository
     {
+<<<<<<< HEAD
         private readonly IDbConnectionFactory<NpgsqlConnection> _dbConnectionFactory;       
         private readonly IQueryExecutor _queryExecutor;
         private const int Timeout = 5;
@@ -46,6 +52,11 @@ namespace OzonEdu.Merchandise.Infrastructure.Repositories.Implementation
             //     // return result.Select(x => new Item(new ItemType(x.Id, x.Name)));
             // });
             return new List<MerchRequest>();
+=======
+        public Task<List<MerchRequest>> GetMerchReceivedByEmployeeIdAsync(long employeeId, CancellationToken cancellationToken = default)
+        {
+            throw new System.NotImplementedException();
+>>>>>>> origin/workshop4
         }
 
         Task<long> IMerchRequestRepository.CreateAsync(MerchRequest merchRequest, CancellationToken cancellationToken)
